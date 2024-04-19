@@ -1,0 +1,101 @@
+body {
+    background: fixed;
+    background-image: url(https://kartinkin.net/pics/uploads/posts/2022-08/1661443853_50-kartinkin-net-p-anime-fon-kirpichnaya-stena-krasivo-57.jpg );
+    background-size: cover;
+    /* background-color: grey; */    
+    margin: 60px;
+}
+.block-wel {
+    width: auto;
+    height: auto;
+    border: 4px solid;
+    background-color: rgba(127, 255, 212, 0.543);
+    box-shadow: 0 0 10px 10px aquamarine;
+}
+.block-wel-h {
+    text-align: center;
+}
+.block-opis {
+    width: auto;
+    height: auto;
+    border: 4px solid;
+    /* background-color: rgba(127, 255, 212, 0.813); */
+    background-color: rgba(0, 0, 0, 0.823);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* box-shadow: 0 0 10px 10px aquamarine; */
+    box-shadow: 0 0 10px 10px red;
+
+}
+.block-opis ul{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.vib-tip-h {
+    text-align: center;
+}
+.vib-tip {
+    width: auto;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 4px solid;
+    background-color: rgba(128, 128, 128, 0.37);
+    box-shadow: 0px 0px 10px 10px rgba(3, 244, 164, 0.695);
+}
+.block-tip {
+    width: auto;
+    height: auto;
+    background-color: rgba(127, 255, 212, 0.543);
+    border: 4px solid;
+    box-shadow: 0px 0px 10px 10px aquamarine;
+}
+.tip-ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tip-a {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    text-decoration: none;
+    color: red;
+    list-style: none;
+}
+.block-nezn {
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    border: 4px solid;
+    box-shadow: 0px 0px 10px 10px aqua;
+    background: linear-gradient(60deg, blue, red);
+
+    text-align: center;
+}
+.block-classi {
+    width: auto;
+    height: auto;
+    background-color: aquamarine;
+    box-shadow: 0px 0px 10px 10px aquamarine;
+    border: 4px solid;
+    margin-top: 50px;
+    list-style: none;
+    
+}
+.classi-ul {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    
+}
+.classi-ul a {
+    text-decoration: none;
+    color: red;
+}
+@media (max-width: 700px){
+    body{
+        margin: 10px;
+        background-image: url(https://catherineasquithgallery.com/uploads/posts/2021-03/1614764826_10-p-zadnie-foni-dlya-fotoshopa-13.jpg);
+    }
+}

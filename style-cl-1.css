@@ -1,0 +1,181 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(54, 48, 48);
+    margin: 20px;
+}
+.block-class {
+    background-color: aqua;
+    width: auto;
+    height: auto;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px 10px aqua;
+    border: 4px solid;
+}
+.block-navi {
+    background-color: red;
+    width: auto;
+    position: fixed;
+    width: 1480px;
+    border: 3px solid;
+    border-radius: 40px 40px 40px 40px ;
+}
+
+.block-navi ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.block-navi a {
+    text-decoration: none;
+}
+
+.block-class h1 {
+    text-align: center;
+}
+
+.block-wel {
+    width: auto;
+    border-radius: 50px 50px 50px 50px;
+
+    background-color: aquamarine;
+    border: 4px solid;
+    height: auto;
+    box-shadow: 0px 0px 10px 10px aquamarine;
+    margin-bottom: 30px;
+}
+
+.block-wel h1 {
+    text-align: center;
+}
+
+.block-one {
+    background-color: aquamarine;
+    border: 4px solid;
+    border-radius: 80px 80px 80px 80px;
+    width: auto;
+    height: auto;
+    box-shadow: 0px 0px 10px 10px aquamarine;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.block-one-bl {
+    width: 80px;
+    height: 350px;
+    border: 2px solid;
+    background-color: aqua;
+    transition: 2s;
+}
+
+.block-one-nad {
+    width: auto;
+    border-radius: 50px 50px 50px 50px;
+    background-color: aquamarine;
+    border: 4px solid;
+    height: auto;
+    box-shadow: 0px 0px 10px 10px aquamarine;
+    margin-bottom: 30px;
+}
+.block-one-pod {
+    background-color: aquamarine;
+    width: auto;
+    height: auto;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px 10px aquamarine;
+    border: 4px solid;
+    border-radius: 50px 50px 50px;
+}
+.block-one-bl:hover {
+    transition: 1s;
+    background-color: red;
+    width: 340px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 10px 10px red;
+}
+
+.block-two {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 50px;
+}
+.block-two div:hover {
+    transition: 1s;
+    transform: scale(1.2);
+    margin-left: 50px;
+    background-color: blue;
+    box-shadow: 0px 0px 10px 10px red;
+}
+.block-two div {
+    width: 710px;
+    height: 200px;
+    border: 3px solid;
+    background-color: red;
+    transition: 1s;
+}
+.block-two-pod {
+    margin-top: 50px;
+    background-color: aquamarine;
+    width: auto;
+    height: auto;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px 10px aquamarine;
+    border: 4px solid;
+    border-radius: 50px 50px 50px;
+}
+.block-tree-nad {
+    width: 400px;
+    height: 400px;  
+    background-color: red;
+    margin-left: 40%;
+    transition: 1.5s;
+    border-radius: 50px 50px 50px 50px;
+}
+.block-tree-nad:hover {
+    border: 4px solid;
+    box-shadow: 0px 0px 20px 20px red;
+    background-color: blue;
+    transform: scale(1.1);
+    transition: 1.5s;
+}
+.block-tree {
+    background-color: aquamarine;
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px 10px aquamarine;
+    border: 4px solid;
+    border-radius: 50px 50px 50px;
+}
+.block-for {
+    display: flex;
+    justify-content: center;
+}
+.block-for-in {
+    width: 450px;
+    border: 4px solid;
+    border-radius: 50px 50px 50px 50px;
+}
+.block-for ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.block-for li {
+    font-size: 60px;
+    color: aqua;
+    transition: 1s;
+}
+.block-for li:hover {
+    cursor: pointer;
+    color: red;
+    transition: 1s;
+    transform: scale(1.4);
+}
+.block-for li:active {
+    color: gold;
+}
